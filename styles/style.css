@@ -78,7 +78,10 @@
 }
 
 .cover__title {
-  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: -box;
   padding: 165px 50px 0;
   color: #fff;
   font-weight: 700;
@@ -93,8 +96,6 @@
 }
 
 .aligned-text_center {
-  margin: 20px;
-  padding-right: 58px;
   line-height: 1;
   text-align: center;
 }
